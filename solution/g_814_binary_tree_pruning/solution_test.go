@@ -1,7 +1,8 @@
 package g_814_bianry_tree_pruning
 
 import (
-	. "leetcode/datastruct"
+	. "github/rsj217/leetcode-in-golang/datastruct"
+
 	"testing"
 )
 

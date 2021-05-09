@@ -1,12 +1,12 @@
 package g_94_binary_tree_inorder_traversal
 
 import (
-	. "leetcode/datastruct"
+	. "github/rsj217/leetcode-in-golang/datastruct"
 )
 
 func inorderTraversal(root *TreeNode) []int {
 	ans := make([]int, 0, 1)
-	inorderTraversalIter(root, &ret)
+	inorderTraversalIter(root, &ans)
 	return ans
 }
 
@@ -15,7 +15,7 @@ func inorderTraversalIter(node *TreeNode, ans *[]int) {
 		return
 	}
 	inorderTraversalIter(node.Left, ans)
-	*ans = append(*ret, node.Val)
+	*ans = append(*ans, node.Val)
 	inorderTraversalIter(node.Right, ans)
 	return
 }
@@ -36,7 +36,7 @@ func inorderTraversalRecursion(root *TreeNode) []int {
 		}
 
 		node = stack[len(stack)-1]
-		ans = append(ret, node.Val)
+		ans = append(ans, node.Val)
 		stack = stack[:len(stack)-1]
 		node = node.Right
 	}

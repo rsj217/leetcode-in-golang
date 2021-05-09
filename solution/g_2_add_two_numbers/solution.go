@@ -1,6 +1,6 @@
 package g_2_add_two_numbers
 
-import . "leetcode/datastruct"
+import . "github/rsj217/leetcode-in-golang/datastruct"
 
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	carry := 0

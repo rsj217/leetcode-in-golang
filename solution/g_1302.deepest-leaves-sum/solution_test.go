@@ -1,7 +1,9 @@
 package g_1302_deepest_leaves_sum
 
-import "testing"
-import . "leetcode/datastruct"
+import (
+	. "github/rsj217/leetcode-in-golang/datastruct"
+	"testing"
+)
 
 func Test_deepestLeavesSum(t *testing.T) {
 	type args struct {

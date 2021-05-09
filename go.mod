@@ -1,4 +1,4 @@
-module leetcode
+module github/rsj217/leetcode-in-golang
 
 go 1.15
 

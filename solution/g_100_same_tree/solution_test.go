@@ -1,7 +1,8 @@
 package g_100_same_tree
 
 import (
-	. "leetcode/datastruct"
+	. "github/rsj217/leetcode-in-golang/datastruct"
+
 	"testing"
 )
 

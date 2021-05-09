@@ -22,15 +22,15 @@ func (h *MaxHeap) Push(item int) {
 }
 
 func (h *MaxHeap) Pop() int {
-	ret := 0
+	ans := 0
 	size := h.GetSize()
 	if 0 < size {
 		(*h)[0], (*h)[size-1] = (*h)[size-1], (*h)[0]
-		ret = (*h)[size-1]
+		ans = (*h)[size-1]
 		*h = (*h)[:size-1]
 		shiftDown(*h, 0)
 	}
-	return ret
+	return ans
 }
 
 func (h *MaxHeap) Heapify(nums []int) {

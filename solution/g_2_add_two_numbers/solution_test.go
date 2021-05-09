@@ -1,7 +1,8 @@
 package g_2_add_two_numbers
 
 import (
-	. "leetcode/datastruct"
+	. "github/rsj217/leetcode-in-golang/datastruct"
+
 	"reflect"
 	"testing"
 )

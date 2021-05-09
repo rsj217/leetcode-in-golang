@@ -2,7 +2,8 @@ package sort
 
 import (
 	"fmt"
-	"leetcode/util"
+	"github/rsj217/leetcode-in-golang/util"
+
 	"time"
 )
 

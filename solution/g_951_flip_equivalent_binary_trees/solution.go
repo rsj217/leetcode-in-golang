@@ -1,7 +1,7 @@
 package g_951_flip_equivalent_binary_trees
 
 import (
-	. "leetcode/datastruct"
+	. "github/rsj217/leetcode-in-golang/datastruct"
 )
 
 func flipEquiv(root1 *TreeNode, root2 *TreeNode) bool {

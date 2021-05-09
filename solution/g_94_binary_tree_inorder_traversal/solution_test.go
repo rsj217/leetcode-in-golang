@@ -1,7 +1,8 @@
 package g_94_binary_tree_inorder_traversal
 
 import (
-	. "leetcode/datastruct"
+	. "github/rsj217/leetcode-in-golang/datastruct"
+
 	"reflect"
 	"testing"
 )

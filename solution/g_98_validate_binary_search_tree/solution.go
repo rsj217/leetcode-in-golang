@@ -1,7 +1,7 @@
 package g_98_validate_binary_search_tree
 
 import (
-	. "leetcode/datastruct"
+	. "github/rsj217/leetcode-in-golang/datastruct"
 )
 
 func isValidBST(root *TreeNode) bool {

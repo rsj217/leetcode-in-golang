@@ -1,7 +1,7 @@
 package g_662_maximum_width_of_binary_tree
 
 import (
-	. "leetcode/datastruct"
+	. "github/rsj217/leetcode-in-golang/datastruct"
 	"testing"
 )
 

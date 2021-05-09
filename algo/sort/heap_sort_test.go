@@ -2,7 +2,7 @@ package sort
 
 import (
 	"github.com/stretchr/testify/assert"
-	"leetcode/util"
+	"github/rsj217/leetcode-in-golang/util"
 	"testing"
 )
 

@@ -1,7 +1,7 @@
 package g_100_same_tree
 
 import (
-	. "leetcode/datastruct"
+	. "github/rsj217/leetcode-in-golang/datastruct"
 )
 
 func maxDepth(root *TreeNode) int {

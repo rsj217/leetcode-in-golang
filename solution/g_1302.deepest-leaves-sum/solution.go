@@ -1,6 +1,6 @@
 package g_1302_deepest_leaves_sum
 
-import . "leetcode/datastruct"
+import . "github/rsj217/leetcode-in-golang/datastruct"
 
 var (
 	maxVal   = 0
