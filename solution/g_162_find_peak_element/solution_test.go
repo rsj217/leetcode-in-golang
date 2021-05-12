@@ -1,7 +1,7 @@
 package g_162_find_peak_element
 
 import (
-	"github/rsj217/leetcode-in-golang/util"
+	"github.com/rsj217/leetcode-in-golang/util"
 
 	"testing"
 )

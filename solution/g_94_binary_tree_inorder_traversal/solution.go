@@ -1,7 +1,7 @@
 package g_94_binary_tree_inorder_traversal
 
 import (
-	. "github/rsj217/leetcode-in-golang/datastruct"
+	. "github.com/rsj217/leetcode-in-golang/datastruct"
 )
 
 func inorderTraversal(root *TreeNode) []int {

@@ -1,7 +1,7 @@
 package g_100_same_tree
 
 import (
-	. "github/rsj217/leetcode-in-golang/datastruct"
+	. "github.com/rsj217/leetcode-in-golang/datastruct"
 )
 
 func isSameTree(p *TreeNode, q *TreeNode) bool {

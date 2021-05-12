@@ -1,7 +1,7 @@
 package g_1302_deepest_leaves_sum
 
 import (
-	. "github/rsj217/leetcode-in-golang/datastruct"
+	. "github.com/rsj217/leetcode-in-golang/datastruct"
 	"testing"
 )
 

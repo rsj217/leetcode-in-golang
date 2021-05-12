@@ -1,7 +1,7 @@
 package g_814_bianry_tree_pruning
 
 import (
-	. "github/rsj217/leetcode-in-golang/datastruct"
+	. "github.com/rsj217/leetcode-in-golang/datastruct"
 )
 
 func pruneTree(root *TreeNode) *TreeNode {
