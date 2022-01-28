@@ -28,8 +28,8 @@ func (n *TreeNode) getHeight(node *TreeNode) int {
 	return 1 + leftHeight
 }
 
-func (node *TreeNode) Height() int {
-	return node.getHeight(node)
+func (n *TreeNode) Height() int {
+	return n.getHeight(n)
 }
 
 func Create(nums []interface{}) *TreeNode {
