@@ -3,10 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	a := []int{1, 2, 3}
-	n := make([]int, 3, 3)
-	fmt.Println(a, n)
-
-	copy(n, a)
-	fmt.Println(a, n)
+	n := 5
+	var ans = make([][]int, 0, n)
+	for i := 0; i < n; i++ {
+		ans = append(ans, make([]int, n, n))
+	}
+	fmt.Println(ans)
 }
